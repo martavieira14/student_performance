@@ -10,8 +10,8 @@ The goal of this tool is to provide an end-to-end exploratory data analysis expe
 
 ## Dataset
 The application uses the open-source Student Performance Dataset from Kaggle, originally published by Nikhil Narayan.
-Original dataset: 6 columns, 10 000 observations
-This dataset includes hours studied, hours slept, previous scores, extracurricular activities, sample question papers practiced and performance index of the students. 
+Original dataset: 6 columns, 10 000 observations.
+Variables: hours studied, sleep hours, previous scores, extracurricular activities, sample question papers practiced and performance index. 
 
 It provides a foundation for analyzing how lifestyle and study metrics correlate with final academic performance.
 
@@ -38,6 +38,7 @@ channels:
 dependencies:
   - python=3.12
   - pandas
+  - numpy
   - matplotlib
   - seaborn
   - scipy
@@ -61,7 +62,7 @@ cd student_performance
 
 3. Run the application:
 ```
-    shiny run app.py --reload
+    shiny run app.py 
 ```
 
 ## Contribution:
