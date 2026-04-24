@@ -44,6 +44,7 @@ dependencies:
   - pip
   - pip:
     - shiny
+```
 
 ### Conda
 1. Clone the repository:
